@@ -1,0 +1,201 @@
+*{
+	/*margin:0;
+	padding: 0;*/
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; 
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+}
+
+/*.contenedorS
+{
+	background: #fff;
+	width: 100%;
+	/*margin: auto;
+	max-width:1000px;*/
+}
+
+/**/.contenedorS p
+{
+	background: #606060;
+	color:#fff;
+	margin: auto;
+	margin-bottom: 40px;
+	max-width:1000px;
+	width: 100%;
+	padding: 20px;
+}
+
+.col-center
+{
+	/*background: blue;*/
+	width: 100%;
+	max-width:1000px;
+	margin: auto;
+	overflow: hidden;/*para contentleft y right*/
+}
+
+.col-center2
+{
+	background: blue;
+	width: 100%;
+	max-width:1000px;/*BORRAR!!!!!!*/
+	margin: auto;
+	/*overflow: hidden; /*oculta barra espaciado*/
+}
+
+.col-center2 p{
+	width: 90%;
+	margin: 0; /*tmb oculta espaciado sin overflowhidden*/
+	padding: 8px;
+	margin: auto;
+}
+
+.section-top
+{
+	background-image: url("fondo2.jpg");
+	/*width: 100%;*/
+	background-size: 100vw 100vh; /*100% viewport width & height*/
+	background-attachment: fixed;
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	height: auto;
+	/*padding-top: 40px;*/
+	/*background: #009ECE;*/
+	width: 100%;
+	padding: 20px;
+}
+
+/**/.content-left
+{
+	float: left;
+	width: 55%;
+	color: #fff;
+	background-color: rgba(0,0,0,.5);
+	padding: 10px 15px;
+	border-radius: 4px;
+	/*margin-right: 2.5%;
+	margin-left: 2.5%;*/
+	margin: 2.5% 2.5% 4%;
+
+}
+
+.content-right
+{
+	float: right;
+	width: 35%;
+	color: #fff;
+	text-align: center;
+	background-color: rgba(0,0,0,.5); /*rgba(255,255,255,.4)*/
+	padding: 10px 20px;
+	/*margin-right: 2.5%;
+	margin-left: 2.5%;*/
+	margin: 2.5% 2.5% 4%;
+	
+}
+
+.input
+{
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 3px;
+	/*font-size: 13px;*/
+	border: none;
+}
+
+textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 110px;
+}
+
+.button-download
+{
+	background-color: #00aced;
+	padding: 8px;
+	color: #fff;
+	border: 0px;
+}
+.button-send
+{
+	background-color: #00aced;
+	padding: 8px;
+	color: #fff;
+	border: 0px;
+}
+
+#buttonsend{
+	cursor: pointer;
+}
+
+.section-bottom{
+	background: red;
+}
+
+.center-text
+{
+	text-align: center;
+}
+
+.margin-top
+{
+	margin-top: 40px;
+} 
+
+a
+{
+	text-decoration: none;
+}
+
+h6
+{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	background: rgba(0,0,0,.4);
+}
+
+/*cambios con pantalla 800px*/
+@media screen and (max-width: 605px){
+	.content-left
+	{width: 100%;
+	margin: 0;
+	margin-bottom: 2.5%;}
+	.content-right
+	{width: 100%;
+	margin: 0;
+	margin-top: 2.5%;}
+}
+
+/*cambios con pantalla 400px*/
+@media screen and (max-width: 400px){
+	.aside
+	{
+		display:none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Colores 
+Celestes
+0099CC
+http://www.colorcombos.com/color-schemes/129/ColorCombo129.html
+http://www.colorcombos.com/color-schemes/168/ColorCombo168.html
+http://www.colorcombos.com/color-schemes/187/ColorCombo187.html
+
+hOVER COLOR: #771100
